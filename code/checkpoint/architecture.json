@@ -1,0 +1,6 @@
+{
+  "hidden": 48,
+  "max_directions": 8,
+  "max_probes": 8,
+  "message_rounds": 2
+}
