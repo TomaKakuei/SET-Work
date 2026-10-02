@@ -1,0 +1,25 @@
+{
+  "original_checkpoint_sha256": "df2a4d248214b9fbf2b423ed9385cbd79dd41931dd7a778d960cc19f3fdd45e6",
+  "parameters": 49096,
+  "tensor_export_exact": true,
+  "tensor_sha256": {
+    "embed.0.weight": "0d0557c79bae28001ae6e55fabaecef6aaaca7719bcce94f9adab1ba741c1259",
+    "embed.0.bias": "ac8d5082554180974be5005d4f9d180c61064ea2d642b33b33e03adf8cdef9de",
+    "embed.1.weight": "1f2bd362d638413ac64d6b3e51dbc2ace11445429888a6911acccd81f4b6429d",
+    "embed.1.bias": "6165f697aff14e4239a97ab8d680ec420918eb10b2b4368029d56d96b1989eba",
+    "embed.3.weight": "2f802316abf5adfa5a03c827c2739aab5a6e41fea30daeba7334ae3da58d8e25",
+    "embed.3.bias": "72848d9ed6afb185614bdfe4091d367f1121741f4c6402bbf265e461c66d947b",
+    "embed.4.weight": "0f0eedd0117798881bb6eb4e44c293ab89ec5b14fa8baa42f8acbedd24879ef2",
+    "embed.4.bias": "d0109208f1a6127e501b31dfa04aedebd2702a958d29536b7517653e36a8239d",
+    "message.0.0.weight": "342e8dcec6b328ca20f8bab25d7f5ef0035b18386dbb4196a32f581f55906484",
+    "message.0.0.bias": "603493737646d2625834360c7de9f2c50bfc9f17a87020be200b431db61eac92",
+    "message.0.1.weight": "7fcb279cfcacc027e3470dd6f5c61fbad7bfc1d16296d34cdb5772aa02fc9635",
+    "message.0.1.bias": "62c14a818499a1e30e889a8035df52bdc8b1018801dffb6e9364e192258ac39e",
+    "message.1.0.weight": "893dcdc7b5a5251ff0be3e915ce2b14ff9763bc81d7cf01af753d1ed57f65be3",
+    "message.1.0.bias": "5780f08051a6fdc7b470c60bb16ba04df03711d5bf56db2faff7b1b1fc4aa053",
+    "message.1.1.weight": "4e8202e98520fc9f821a85d4d5eb0708318c23e5a9dbdcc83f2edc4ebd7f7937",
+    "message.1.1.bias": "a414fc24fd068eb3cf12737dce8a6acb8bd28e65eb182f809d220babd36c6c2c",
+    "head.weight": "22404d9b06ccb253ac37951494b8923a4dc73ae4d389af50ee9cb60bdd3d1e5a",
+    "head.bias": "8caacd30997cae1264876393402b713923653e27fde6746b4627e88e94383c65"
+  }
+}

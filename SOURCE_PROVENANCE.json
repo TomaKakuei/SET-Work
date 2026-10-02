@@ -1,0 +1,174 @@
+{
+  "release": "2026-10-02 compact core export",
+  "checkpoint_sha256": "df2a4d248214b9fbf2b423ed9385cbd79dd41931dd7a778d960cc19f3fdd45e6",
+  "files": [
+    {
+      "path": "code/setsunet_csn/__init__.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/__init__.py",
+      "source_sha256": "29b7dac9be9ccb1074b85c758a34c3ecbffeb644d4a4dd81d72edd334c46ec54",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/core.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/core.py",
+      "source_sha256": "c81851f855c031cc3bbad924a6c6d1ba4dc1545542297ce5a753a010f417a51c",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/model.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/model.py",
+      "source_sha256": "3ee761af31b77a3ec2a15a9f6ac23e9c901932f1b18efc5297d5603e14a3ac10",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/model_stage2.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/model_stage2.py",
+      "source_sha256": "9c259d47ef06cce50409e99e87f7bc3b8d560c863825bbf5c1b80de9bb5ceb22",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/model_stage4.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/model_stage4.py",
+      "source_sha256": "3ae09d5863785767e83c693fe7526f727f913a1f863f073ebb8bdcb6187e3498",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/model_stage5.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/model_stage5.py",
+      "source_sha256": "2cf48cd6915fdcb40dfdfc2f7da9257d8a41d9e4ffd278de440cfaf0c3c0ff2d",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/optimizer.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/optimizer.py",
+      "source_sha256": "13dfeaf54eaca135c441595b7c5e354fe9cdd046ee7fcd56dc0dc8240ce374e6",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/problems.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/problems.py",
+      "source_sha256": "65d86b93ecfb7d60750d439e8246f17b982f6a5a24924895a8dac780c465bd5e",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/stage2.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/stage2.py",
+      "source_sha256": "fd18007d04cb176c485b9bd6d29aac4db292d85906aac1fa6b289a563a76dfa6",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/stage3.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/stage3.py",
+      "source_sha256": "d27057246380d174320eef0f00bb8bf1229bd77f6e98065dfa7ac467fc44ebcc",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/stage4.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/stage4.py",
+      "source_sha256": "708b60d346cf75d7aaabdaedd48607db653e55f17cbd96c16ffcfa2da34da6f4",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/stage5.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/stage5.py",
+      "source_sha256": "0a6f766d824b62cd2ea1ba25ac251d3e9e04d9c75566519231cde4c9a5bebda3",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/stage6.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/stage6.py",
+      "source_sha256": "dc4d765213d84015ba20b20e77235f523be78ac667687cded754af6173d43509",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/curvature_stage4.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/curvature_stage4.py",
+      "source_sha256": "8c5c8b07b6a705629cb9f7a89f2dc6b586e6aabc3d917a388c7ee6349d917199",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/curvature_stage5.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/curvature_stage5.py",
+      "source_sha256": "b0575260e2149595224b7d3ec6dd9eb82a61234dc2320867bfe9901daafab53a",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/native_stage4.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/native_stage4.py",
+      "source_sha256": "c9455ec676987c3b21fad2dfdbeb90a6557e7cc7a57aa6e5325a615740238ece",
+      "note": "Platform-specific library suffix only; numerical code unchanged"
+    },
+    {
+      "path": "code/setsunet_csn/native_stage5.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/native_stage5.py",
+      "source_sha256": "4efe045d6a782f8e772de3e8e0fab703e32f7c3f57d8e7ad8b7bc8c5df9d4893",
+      "note": "Platform-specific library suffix only; numerical code unchanged"
+    },
+    {
+      "path": "code/setsunet_csn/stage5_curve_ablation.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/stage5_curve_ablation.py",
+      "source_sha256": "74717a79206ccf17f51cb6144f769a65a5f4c0f80c48bd90781cf3e8670bcf16",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/setsunet_csn/stage5_rnc_proxy.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/setsunet_csn/stage5_rnc_proxy.py",
+      "source_sha256": "7a434e72f1c7c3dde735c91f4f961718b917a85d19f337dfc215a0ead0f5acc9",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/native_stage4/csn_small.c",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/native_stage4/csn_small.c",
+      "source_sha256": "5a3e52840b72a5ed6b38266c6c5e630d15031a3254a22dd4f8a378e6427341a8",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/native_stage5/csn_factors.c",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/native_stage5/csn_factors.c",
+      "source_sha256": "7af70e3d48681b581cb1b42a384c9b271637709924a66198b962aed707bad822",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/checkpoint/architecture.json",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/research_writing/supplement_extract_check_20260921_value/code/checkpoint/architecture.json",
+      "source_sha256": "68f32988818b60fe7de0241feec4491a3527986eb632b956de268d2b3bf83394",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/checkpoint/weights.npz",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/research_writing/supplement_extract_check_20260921_value/code/checkpoint/weights.npz",
+      "source_sha256": "98537e3d4c2bac3ece2cb220cf1f5dd75c7252bd1c4751d0e55c6c9266e8f108",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/checkpoint/provenance.json",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/research_writing/supplement_extract_check_20260921_value/code/checkpoint/provenance.json",
+      "source_sha256": "f4241c48ecec6daaacdf5cf61ea6ef23c0d49bdef788c671b3e9ac8b172b1db4",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/stage7_tasks.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/research_writing/supplement_extract_check_20260921_value/code/stage7_tasks.py",
+      "source_sha256": "59549016042a0f73f416d999133b5ccda75c1f08cbfc7d9b7c6a2f4f426dc505",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/stage9_backends.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/research_writing/supplement_extract_check_20260921_value/code/stage9_backends.py",
+      "source_sha256": "a8231133287e1262f51601f17d92c6a27ac59f0b7ff6329c3cfdbc3e5e9bea58",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "code/extra_problem.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/research_writing/supplement_extract_check_20260921_value/code/extra_problem.py",
+      "source_sha256": "d5e96af24b32cb17a90edaabe8e982b656dedacc404b6c16b1e0723c95c4d75c",
+      "note": "Unmodified source"
+    },
+    {
+      "path": "tests/core_checks.py",
+      "source": "SETSUNET_CSN_CONTINUE/workspace/tests/test_core.py",
+      "source_sha256": "29d5047c3cf927c1252c4d963bab53903302af07abfcaf14c0f3d7bdd38c20f6",
+      "note": "Import path adjusted for compact code directory"
+    }
+  ]
+}
