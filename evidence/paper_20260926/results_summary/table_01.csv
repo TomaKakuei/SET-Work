@@ -1,0 +1,12 @@
+\begin{tabular}{@{}lrrrrrr@{}}\toprule Group,Scored/reg.,SETSUNET,HSLM,Ceres LM,Dogbox,VeLO
+HPatches pairs (lower better),579/580,46.2240,56.5578,46.1859,46.1879,70.8503
+Multiframe (lower better),115/116,15.2157,17.9581,18.7085,16.4495,27.5571
+Balanced graph (lower better),64/64,0.1090,0.5561,0.0101,0.0101,0.7295
+Biased graph (lower better),64/64,0.2387,0.5813,0.3522,0.3522,0.7338
+Broyden (lower better),64/64,5.37e-06,0.1822,7.02e-16,4.93e-16,0.5223
+SE3 (lower better),64/64,0.0049,0.0089,0.0034,0.0034,0.0093
+TUM (lower better),47/60,0.0592,0.0662,0.0368,0.0366,0.0678
+Known blur (higher better),66/66,41.2231,39.4490,41.2238,41.2238,36.9533
+Low light (higher better),100/100,10.3752,10.2626,10.2577,10.3087,10.3169
+SIDD (higher better),160/160,23.9106,23.8230,23.8927,23.9030,23.9602
+Stereo (lower better),180/180,2.2550,2.5275,2.6018,2.5328,2.6018

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_aggregation": true,
+  "comparison_rows_checked": 612,
+  "cases": 126,
+  "score_rows": 4410,
+  "all_current_source_and_artifact_hashes_passed": true,
+  "workbook_case_cells_checked": true,
+  "optimizer_reruns": 0,
+  "se3_mean_error_reduction_pct": 0.20621384890028294
+}

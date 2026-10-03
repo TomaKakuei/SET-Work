@@ -1,0 +1,10 @@
+{
+  "relative_margin": 0.02,
+  "error_ratio": "max(a,b)/min(a,b) <= 1.02, subject to numerical floor",
+  "psnr_error": "RMSE",
+  "psnr_db_margin": 0.17200343523835138,
+  "numerical_error_floor": "1e-10 + 1e-6 * max(abs(a), abs(b))",
+  "scope": "Five-method benchmark outcome counts and Table 1 co-best markings; component-effect magnitudes and descriptive confidence intervals unchanged.",
+  "statistical_significance_test": false,
+  "perceptual_equivalence_claim": false
+}
