@@ -1,0 +1,10 @@
+table,label,pdf_page,csv,source_tex,source_paper_file,source_block_sha256
+1,tab:expanded,6,table_01.csv,paper_tables/table_01.tex,tables/expanded_quality_readable.tex,fd6c6e5c60db444cd39badb4c80692a2e0fd595af77e9bca1d3f140f8259b0d0
+2,tab:attribution,7,table_02.csv,paper_tables/table_02.tex,manuscript.tex,b4d5f20f5d8e3be91e4184d5533e7744c9c928e492cc652aab04ba86bff1df20
+3,tab:whitening-gauge,14,table_03.csv,paper_tables/table_03.tex,tables/whitening_gauge.tex,acf1c1e3d2f19bd4b5e3eea7ac1e1d9d4489d859d96804dc131315a1cdb5071e
+4,tab:taskwise,16,table_04.csv,paper_tables/table_04.tex,tables/taskwise.tex,c2106c83e0e4a1e4352821c4afde01d949c03cf53eedacee605753bf22616119
+5,tab:coverage,16,table_05.csv,paper_tables/table_05.tex,tables/comparison_coverage.tex,3cd8192ab734fce3acff9acb4325ec1e3690f7f95ef4ef74d4b306be7ec2a194
+6,tab:compact-intervals,17,table_06.csv,paper_tables/table_06.tex,tables/compact_intervals.tex,413d2fdfee7270ed94849c41433d72399b268efd65ae81ba92e0652b3203c04c
+7,tab:compact-cg,18,table_07.csv,paper_tables/table_07.tex,appendix_compact.tex,a60b8a88d54e0ecea81bb729de4074de59e15ddad42357af34233a0e5714844e
+8,tab:compact-size,18,table_08.csv,paper_tables/table_08.tex,appendix_compact.tex,c0835909b0be1eb21b4801cb537baf77741ec41ab30d76275d58c3cfe106e265
+9,tab:jacobian-budget,19,table_09.csv,paper_tables/table_09.tex,tables/compact_jacobian.tex,04fc2b08f4345844a33dc2a7e028bd7afc5f0bf88675d791f713f11e6b092451

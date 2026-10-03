@@ -1,0 +1,9 @@
+cohort,method,registered,scored,wins,ties,losses
+heterogeneous18,hslm,18,18,15,3,0
+heterogeneous18,ceres_lm,18,18,9,9,0
+heterogeneous18,dogbox,18,18,9,9,0
+heterogeneous18,velo,18,18,13,5,0
+complementary64,hslm,64,64,53,8,3
+complementary64,ceres_lm,64,64,47,13,4
+complementary64,dogbox,64,64,47,13,4
+complementary64,velo,64,64,52,9,3

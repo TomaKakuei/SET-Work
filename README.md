@@ -53,6 +53,12 @@ The last command runs SETSUNET-CSN, the project's same-curvature dense LM contro
 
 Earlier numbered modules remain because the core shares their numerical routines. The demonstrated entry point is `setsunet_csn.stage5.solve`; the top-level historical `setsunet_csn.solve` is an earlier implementation. Legacy adapters that require external image/geometry packages, historical `from_profile` files, and full training orchestration are outside this compact package. Use `compact_runtime.load_model()` to load the included NPZ weights.
 
+## Benchmark results and analysis
+
+The [evidence index](evidence/README.md) links the current manuscript and appendix, nine paper tables in CSV form, the original 21-task follow-up, independent solver analyses, and the later 126-case comparisons with external methods. The paper's retained 18-task table and the historical 21-task suite have separate labels and provenance. The 126-case follow-up includes its failed-opponent records and the later repair regressions; those developmental routes are separate from the released inference entry point.
+
+Download the complete evidence directory as [SET-Work-evidence-20261002.zip](SET-Work-evidence-20261002.zip). Its file hashes and source mapping are in [evidence/MANIFEST.json](evidence/MANIFEST.json). Run `python scripts/check_evidence.py` to check both the files and archive. The core ZIP and root manifest describe the compact code release.
+
 ## Small tests
 
 - Sixty SPD completion checks: duality gap, locked measured components, basis invariance, equivariance and a differentiable proposal check.
@@ -75,4 +81,3 @@ df2a4d248214b9fbf2b423ed9385cbd79dd41931dd7a778d960cc19f3fdd45e6
 This export contains no large datasets, historical run archives, virtual environments, third-party optimizer weights, or rejected model candidates. The curve module is an explicitly selected research extension; the default examples use the incumbent straight-step solver. No training or production-model replacement is performed.
 
 See [VALIDATION.md](VALIDATION.md) for the tested environment and checks. Linux/macOS build paths are provided but require validation on those platforms. See [LICENSE_NOTICE.md](LICENSE_NOTICE.md) for the existing licensing scope.
-

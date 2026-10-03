@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_aggregation": true,
+  "cases": 126,
+  "candidate_case_rows": 252,
+  "registered_opponents_per_case": 32,
+  "registered_pair_checks": 8064,
+  "workbook_summary_verified": true,
+  "optimizer_reruns": 0,
+  "source": "all_comparator_scores.json"
+}

@@ -1,0 +1,8 @@
+\begin{tabular}{@{}llll@{}}\toprule Study,Scored/reg.,Budget,Methods
+Heterogeneous tasks,18/18,5 steps,All five
+Complementary cases,64/64,5 steps,All five
+Large collections,"1,503/1,518",5 steps,All five
+Graph and multiframe,20/20,5 steps,All five
+Five-target multiframe,7/8,5 steps,All five
+Optimizer transfer,11/11,5 steps,All five
+Derivative budget,60/60,21 derivatives,All five

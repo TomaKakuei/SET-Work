@@ -1,0 +1,5510 @@
+[
+  {
+    "group": "ALL",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 99,
+    "ties": 0,
+    "losses": 27,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 60,
+    "ties": 50,
+    "losses": 16,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 97,
+    "ties": 1,
+    "losses": 28,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 61,
+    "ties": 47,
+    "losses": 18,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 98,
+    "ties": 0,
+    "losses": 28,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 60,
+    "ties": 50,
+    "losses": 16,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 97,
+    "ties": 1,
+    "losses": 28,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 61,
+    "ties": 47,
+    "losses": 18,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 112,
+    "ties": 0,
+    "losses": 14,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 86,
+    "ties": 29,
+    "losses": 11,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 99,
+    "ties": 0,
+    "losses": 27,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 60,
+    "ties": 50,
+    "losses": 16,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 112,
+    "ties": 0,
+    "losses": 14,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 87,
+    "ties": 26,
+    "losses": 13,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 107,
+    "ties": 0,
+    "losses": 19,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 87,
+    "ties": 28,
+    "losses": 11,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 99,
+    "ties": 0,
+    "losses": 27,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 61,
+    "ties": 49,
+    "losses": 16,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 96,
+    "ties": 0,
+    "losses": 30,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 60,
+    "ties": 47,
+    "losses": 19,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 97,
+    "ties": 0,
+    "losses": 29,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 59,
+    "ties": 48,
+    "losses": 19,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 97,
+    "ties": 1,
+    "losses": 28,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 61,
+    "ties": 47,
+    "losses": 18,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 98,
+    "ties": 0,
+    "losses": 28,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 60,
+    "ties": 50,
+    "losses": 16,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 107,
+    "ties": 0,
+    "losses": 19,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 82,
+    "ties": 31,
+    "losses": 13,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 88,
+    "ties": 0,
+    "losses": 38,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 57,
+    "ties": 47,
+    "losses": 22,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 93,
+    "ties": 1,
+    "losses": 32,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 55,
+    "ties": 51,
+    "losses": 20,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 108,
+    "ties": 0,
+    "losses": 18,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 98,
+    "ties": 15,
+    "losses": 13,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 96,
+    "ties": 0,
+    "losses": 30,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 60,
+    "ties": 48,
+    "losses": 18,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 96,
+    "ties": 0,
+    "losses": 30,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 60,
+    "ties": 48,
+    "losses": 18,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 93,
+    "ties": 0,
+    "losses": 23,
+    "failed": 10
+  },
+  {
+    "group": "ALL",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 73,
+    "ties": 30,
+    "losses": 13,
+    "failed": 10
+  },
+  {
+    "group": "ALL",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 96,
+    "ties": 0,
+    "losses": 30,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 55,
+    "ties": 52,
+    "losses": 19,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 91,
+    "ties": 0,
+    "losses": 35,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 56,
+    "ties": 48,
+    "losses": 22,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 93,
+    "ties": 0,
+    "losses": 33,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 59,
+    "ties": 50,
+    "losses": 17,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 97,
+    "ties": 0,
+    "losses": 29,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 61,
+    "ties": 48,
+    "losses": 17,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 94,
+    "ties": 0,
+    "losses": 32,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 57,
+    "ties": 49,
+    "losses": 20,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 94,
+    "ties": 0,
+    "losses": 32,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 56,
+    "ties": 51,
+    "losses": 19,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 106,
+    "ties": 0,
+    "losses": 20,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 88,
+    "ties": 26,
+    "losses": 12,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 99,
+    "ties": 0,
+    "losses": 27,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 88,
+    "ties": 28,
+    "losses": 10,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 104,
+    "ties": 0,
+    "losses": 22,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 91,
+    "ties": 26,
+    "losses": 9,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 103,
+    "ties": 0,
+    "losses": 23,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 87,
+    "ties": 29,
+    "losses": 10,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 45,
+    "ties": 40,
+    "losses": 41,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 86,
+    "losses": 16,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 42,
+    "ties": 50,
+    "losses": 34,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 23,
+    "ties": 89,
+    "losses": 14,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 21,
+    "ties": 88,
+    "losses": 17,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 121,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 15,
+    "ties": 98,
+    "losses": 13,
+    "failed": 0
+  },
+  {
+    "group": "ALL",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 121,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 2,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 2,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 2,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 2,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 2,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 8,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 10,
+    "ties": 0,
+    "losses": 8,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 2,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 2,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 2,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 9,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 9,
+    "ties": 1,
+    "losses": 8,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 10,
+    "ties": 1,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 8,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 9,
+    "ties": 3,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 1,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 10,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 2,
+    "losses": 8,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 9,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 4,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 13,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 2,
+    "losses": 9,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 14,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 5,
+    "ties": 9,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 17,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 7,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 16,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 7,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "hpatches_multiframe",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 16,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 1,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 1,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 1,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 1,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "known_blur",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 17,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 15,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 14,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 17,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 15,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 14,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 15,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 17,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 4,
+    "ties": 14,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 17,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 4,
+    "ties": 13,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 15,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 14,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 17,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 11,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 14,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 15,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 6,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 4,
+    "ties": 14,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 4,
+    "ties": 14,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 3,
+    "failed": 3
+  },
+  {
+    "group": "lowlight",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 6,
+    "ties": 6,
+    "losses": 3,
+    "failed": 3
+  },
+  {
+    "group": "lowlight",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 8,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 14,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 16,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 17,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 16,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 11,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 8,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 17,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 16,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "lowlight",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 9,
+    "ties": 1,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 9,
+    "ties": 1,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 11,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "se3",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 11,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 5,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 10,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 11,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 1,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 2,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 0,
+    "failed": 4
+  },
+  {
+    "group": "sidd",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 1,
+    "losses": 0,
+    "failed": 4
+  },
+  {
+    "group": "sidd",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 11,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 4,
+    "ties": 8,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 8,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 12,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 10,
+    "ties": 0,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 4,
+    "ties": 0,
+    "losses": 8,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 9,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 3,
+    "ties": 9,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 5,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 4,
+    "ties": 8,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 2,
+    "ties": 10,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "sidd",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 12,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 2,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 1,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 1,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 1,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 7,
+    "ties": 0,
+    "losses": 2,
+    "failed": 3
+  },
+  {
+    "group": "stereo",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 6,
+    "ties": 2,
+    "losses": 1,
+    "failed": 3
+  },
+  {
+    "group": "stereo",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 1,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 2,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 8,
+    "ties": 0,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 7,
+    "ties": 1,
+    "losses": 4,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 9,
+    "ties": 0,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 8,
+    "ties": 1,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 2,
+    "ties": 10,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 11,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 1,
+    "ties": 11,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 1,
+    "ties": 11,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 2,
+    "ties": 7,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 10,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 2,
+    "ties": 7,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "stereo",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 10,
+    "losses": 2,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 24,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 14,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 17,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 14,
+    "ties": 9,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 2,
+    "ties": 19,
+    "losses": 3,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 24,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 24,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_biased_view",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 24,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "pcg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "pcg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "block_pcg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "block_pcg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "sparse_pcg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "sparse_pcg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "nystrom16",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "nystrom16",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "sparse_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "sparse_lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "hslm",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "hslm",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "kslm",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "kslm",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "neuralsp_transfer",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "neuralsp_transfer",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "ceres_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "ceres_lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "g2o_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "g2o_lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "petsc_cg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "petsc_cg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "petsc_gamg16",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "petsc_gamg16",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "lbfgs",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "lbfgs",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "trf",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "trf",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "dogbox",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "dogbox",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "adam",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "adam",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "ceres_traditional_dogleg",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "ceres_subspace_dogleg",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "g2o_gauss_newton",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "g2o_gauss_newton",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "g2o_dogleg",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "g2o_dogleg",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "geodesic_lm",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "geodesic_lm",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "rnc_lm_k1",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "rnc_lm_k1",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "rnc_lm_k2",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "rnc_lm_k2",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "rnc_lm_k3",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "rnc_lm_k3",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "rnc_lm_k4",
+    "threshold": "numerical",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "rnc_lm_k4",
+    "threshold": "two_percent",
+    "wins": 11,
+    "ties": 0,
+    "losses": 7,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "velo_flat_h5",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "velo_flat_h5",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "velo_blocks_h5",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "velo_blocks_h5",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "velo_flat_h200",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "velo_flat_h200",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "velo_blocks_h200",
+    "threshold": "numerical",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "velo_blocks_h200",
+    "threshold": "two_percent",
+    "wins": 18,
+    "ties": 0,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "original_straight",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 12,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "original_straight",
+    "threshold": "two_percent",
+    "wins": 5,
+    "ties": 1,
+    "losses": 12,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "paper_curve",
+    "threshold": "numerical",
+    "wins": 6,
+    "ties": 0,
+    "losses": 12,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "paper_curve",
+    "threshold": "two_percent",
+    "wins": 5,
+    "ties": 1,
+    "losses": 12,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "old_quadratic",
+    "threshold": "numerical",
+    "wins": 4,
+    "ties": 13,
+    "losses": 1,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "old_quadratic",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "new_linear_fast",
+    "threshold": "numerical",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  },
+  {
+    "group": "view_graph_noisy_view",
+    "reference": "new_linear_fast",
+    "threshold": "two_percent",
+    "wins": 0,
+    "ties": 18,
+    "losses": 0,
+    "failed": 0
+  }
+]

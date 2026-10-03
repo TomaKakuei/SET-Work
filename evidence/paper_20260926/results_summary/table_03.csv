@@ -1,0 +1,8 @@
+\begin{tabular}{@{}lrrrr@{}}\toprule Case,Original,Paired eigen,Cholesky,Ratio
+Biased graph,0.0251,0.0247,0.0253,0.99x
+Multiframe,3.0780,3.0190,3.2319,0.95x
+Stereo A,7.9020,6.6296,2.7307,2.89x
+Low light,2.4179,2.4865,2.4280,1.00x
+SIDD,0.8425,0.8729,0.8691,0.97x
+Stereo B,9.3961,7.5215,2.9686,3.17x
+Stereo C,9.0197,7.9213,2.9613,3.05x

@@ -33,7 +33,12 @@ python scripts/build_native.py --cc C:/path/to/tcc.exe --tcc
 
 测试案例包括 96 维平衡/噪声/偏置双视图图标定和 64 维 Broyden 方程，数据由固定种子生成。四个历史参考终点保留原案例 ID 和实际开发/确认划分，用于检查导出等价性。这些软件测试与论文的“21 项异构任务基准”分别命名，不替代原逐任务实验结果。
 
-未包含大型图像数据、历史实验输出、运行环境、第三方模型和被拒绝的训练候选。依赖外部数据与旧接口的完整实验/训练编排不属于本精简包；遗留 `from_profile` 接口需要原配置文件。原模型和原实验目录未被修改。
+## 分析报告与基准结果
+
+[证据目录](evidence/README.md)收录最新论文和附录、九张论文表的 CSV、原始 21 项异构任务的后续逐任务实验、求解器分析，以及后来的 126 例外部方法比较和修复版复核。论文保留的 18 项任务与原始 21 项任务分别标注；126 例研发版本的结果不等同于此处默认推理入口。
+
+可下载完整的[证据压缩包](SET-Work-evidence-20261002.zip)。[证据清单](evidence/MANIFEST.json)记录来源与 SHA-256；`python scripts/check_evidence.py` 核对目录及压缩包。核心代码压缩包与根目录清单对应精简代码发布。
+
+未包含大型图像数据、完整历史运行归档、运行环境、第三方模型和被拒绝的训练候选。依赖外部数据与旧接口的完整实验/训练编排不属于本精简包；遗留 `from_profile` 接口需要原配置文件。原模型和原实验目录未被修改。
 
 来源及哈希见 `SOURCE_PROVENANCE.json`、`MANIFEST.json`；环境与验证见 [VALIDATION.md](VALIDATION.md)。本轮本地验证平台为 Windows，Linux/macOS 编译分支尚需对应平台验证。许可范围见 [LICENSE_NOTICE.md](LICENSE_NOTICE.md)。
-
