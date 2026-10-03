@@ -1,0 +1,23 @@
+{
+  "source_commit": "8c61e288ee20f9f9ee126df58b800c5ca01b6bef",
+  "scope": "Only original available stereo audit source; other October method implementations absent from the downloaded checkpoint.",
+  "original_archive": {
+    "name": "SET-Work-stage-checkpoint-20261003.zip",
+    "sha256": "633f30437f369f2869cd1e6ebfaa9e796e4d75cd3d523b18a5fd349b5c5c6705"
+  },
+  "files": {
+    "research_run/full126_training/stereo_action_hull_audit_v1/audit.py": {
+      "size_bytes": 22533,
+      "sha256": "f6724222e240f27cf584b22d73b7af1d7c4b8a15f32e98cd4e5e4ac05738428e"
+    },
+    "research_run/full126_literature/stereo_action_hull_audit_v1/audit_saved_records.py": {
+      "size_bytes": 7144,
+      "sha256": "46ad1670bf6fe5a858c735c137ec688f5f8fe66c8ffee7938f0251ba3acf2d44"
+    }
+  },
+  "validation": {
+    "source_archive_hashes_verified": true,
+    "python_syntax_checked": true,
+    "full_experiments_rerun": false
+  }
+}
