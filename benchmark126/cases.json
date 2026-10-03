@@ -1,0 +1,2375 @@
+{
+  "schema": "registered-126-portable-inputs-v1",
+  "source_protocol_sha256": "bb3e2d7baf9b81ae9fb55fe4c0b851a762ce4213c5dd8909d50d2569dcee028f",
+  "steps": 5,
+  "joint_jacobian_cap": 21,
+  "cases": [
+    {
+      "task": "T01",
+      "anchor": "validation_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "validation_graph_noisy_view_0",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 25321000
+      }
+    },
+    {
+      "task": "T01",
+      "anchor": "validation_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T01_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92570001
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T01",
+      "anchor": "validation_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T01_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92570002
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T01",
+      "anchor": "validation_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T01_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92570003
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T01",
+      "anchor": "validation_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T01_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92570004
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T01",
+      "anchor": "validation_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T01_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92570005
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T02",
+      "anchor": "validation_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "validation_graph_biased_view_0",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 25322000
+      }
+    },
+    {
+      "task": "T02",
+      "anchor": "validation_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T02_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92570101
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T02",
+      "anchor": "validation_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T02_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92570102
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T02",
+      "anchor": "validation_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T02_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92570103
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T02",
+      "anchor": "validation_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T02_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92570104
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T02",
+      "anchor": "validation_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T02_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92570105
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T03",
+      "anchor": "validation_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "validation_graph_biased_view_1",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 25322001
+      }
+    },
+    {
+      "task": "T03",
+      "anchor": "validation_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T03_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92570201
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T03",
+      "anchor": "validation_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T03_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92570202
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T03",
+      "anchor": "validation_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T03_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92570203
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T03",
+      "anchor": "validation_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T03_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92570204
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T03",
+      "anchor": "validation_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T03_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92570205
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T04",
+      "anchor": "validation_se3_0",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 18,
+      "key": "validation_se3_0",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "se3",
+        "nodes": 4,
+        "seed": 25324000
+      }
+    },
+    {
+      "task": "T04",
+      "anchor": "validation_se3_0",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 18,
+      "key": "T04_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 4,
+        "seed": 92570301
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T04",
+      "anchor": "validation_se3_0",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 18,
+      "key": "T04_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 4,
+        "seed": 92570302
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T04",
+      "anchor": "validation_se3_0",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 18,
+      "key": "T04_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 4,
+        "seed": 92570303
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T04",
+      "anchor": "validation_se3_0",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 18,
+      "key": "T04_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 4,
+        "seed": 92570304
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T04",
+      "anchor": "validation_se3_0",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 18,
+      "key": "T04_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 4,
+        "seed": 92570305
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T05",
+      "anchor": "case_0540",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "case_0540",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_ajuntament",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T05",
+      "anchor": "case_0540",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T05_mf_i_bologna",
+      "slot": 1,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "i_bologna",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_bologna",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T05",
+      "anchor": "case_0540",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T05_mf_i_miniature",
+      "slot": 2,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "i_miniature",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_miniature",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T05",
+      "anchor": "case_0540",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T05_mf_v_adam",
+      "slot": 3,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_adam",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_adam",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T05",
+      "anchor": "case_0540",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T05_mf_v_grace",
+      "slot": 4,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_grace",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_grace",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T05",
+      "anchor": "case_0540",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T05_mf_v_yuri",
+      "slot": 5,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_yuri",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_yuri",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T06",
+      "anchor": "case_0543",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "case_0543",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_autannes",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T06",
+      "anchor": "case_0543",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T06_mf_i_books",
+      "slot": 1,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "i_books",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_books",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T06",
+      "anchor": "case_0543",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T06_mf_i_nescafe",
+      "slot": 2,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "i_nescafe",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_nescafe",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T06",
+      "anchor": "case_0543",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T06_mf_v_apprentices",
+      "slot": 3,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_apprentices",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_apprentices",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T06",
+      "anchor": "case_0543",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T06_mf_v_gardens",
+      "slot": 4,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_gardens",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_gardens",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T06",
+      "anchor": "case_0543",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 16,
+      "key": "T06_mf_v_yard",
+      "slot": 5,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_yard",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_yard",
+        "targets": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "task": "T07",
+      "anchor": "case_0798",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "case_0798",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "known_blur",
+        "origin": [
+          1,
+          742
+        ],
+        "asset": "data/tiles/case_0798.npz"
+      }
+    },
+    {
+      "task": "T07",
+      "anchor": "case_0798",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T07_blur_GOPR0384_11_00_0",
+      "slot": 1,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0384_11_00",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          468,
+          1070
+        ],
+        "asset": "data/tiles/T07_blur_GOPR0384_11_00_0.npz"
+      }
+    },
+    {
+      "task": "T07",
+      "anchor": "case_0798",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T07_blur_GOPR0385_11_01_0",
+      "slot": 2,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0385_11_01",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          157,
+          333
+        ],
+        "asset": "data/tiles/T07_blur_GOPR0385_11_01_0.npz"
+      }
+    },
+    {
+      "task": "T07",
+      "anchor": "case_0798",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T07_blur_GOPR0854_11_00_0",
+      "slot": 3,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0854_11_00",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          66,
+          238
+        ],
+        "asset": "data/tiles/T07_blur_GOPR0854_11_00_0.npz"
+      }
+    },
+    {
+      "task": "T07",
+      "anchor": "case_0798",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T07_blur_GOPR0869_11_00_0",
+      "slot": 4,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0869_11_00",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          617,
+          676
+        ],
+        "asset": "data/tiles/T07_blur_GOPR0869_11_00_0.npz"
+      }
+    },
+    {
+      "task": "T07",
+      "anchor": "case_0798",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T07_blur_GOPR0881_11_01_0",
+      "slot": 5,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0881_11_01",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          202,
+          612
+        ],
+        "asset": "data/tiles/T07_blur_GOPR0881_11_01_0.npz"
+      }
+    },
+    {
+      "task": "T08",
+      "anchor": "case_0805",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "case_0805",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "lowlight",
+        "origin": null,
+        "asset": "data/tiles/case_0805.npz"
+      }
+    },
+    {
+      "task": "T08",
+      "anchor": "case_0805",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T08_lowlight32_002",
+      "slot": 1,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00692",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          310,
+          521
+        ],
+        "asset": "data/tiles/T08_lowlight32_002.npz"
+      }
+    },
+    {
+      "task": "T08",
+      "anchor": "case_0805",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T08_lowlight32_027",
+      "slot": 2,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00717",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          133,
+          195
+        ],
+        "asset": "data/tiles/T08_lowlight32_027.npz"
+      }
+    },
+    {
+      "task": "T08",
+      "anchor": "case_0805",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T08_lowlight32_051",
+      "slot": 3,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00741",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          220,
+          504
+        ],
+        "asset": "data/tiles/T08_lowlight32_051.npz"
+      }
+    },
+    {
+      "task": "T08",
+      "anchor": "case_0805",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T08_lowlight32_075",
+      "slot": 4,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00765",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          58,
+          515
+        ],
+        "asset": "data/tiles/T08_lowlight32_075.npz"
+      }
+    },
+    {
+      "task": "T08",
+      "anchor": "case_0805",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T08_lowlight32_099",
+      "slot": 5,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00789",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          121,
+          367
+        ],
+        "asset": "data/tiles/T08_lowlight32_099.npz"
+      }
+    },
+    {
+      "task": "T09",
+      "anchor": "case_0806",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "case_0806",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "lowlight",
+        "origin": null,
+        "asset": "data/tiles/case_0806.npz"
+      }
+    },
+    {
+      "task": "T09",
+      "anchor": "case_0806",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T09_lowlight32_004",
+      "slot": 1,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00694",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          103,
+          465
+        ],
+        "asset": "data/tiles/T09_lowlight32_004.npz"
+      }
+    },
+    {
+      "task": "T09",
+      "anchor": "case_0806",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T09_lowlight32_028",
+      "slot": 2,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00718",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          329,
+          288
+        ],
+        "asset": "data/tiles/T09_lowlight32_028.npz"
+      }
+    },
+    {
+      "task": "T09",
+      "anchor": "case_0806",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T09_lowlight32_052",
+      "slot": 3,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00742",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          355,
+          124
+        ],
+        "asset": "data/tiles/T09_lowlight32_052.npz"
+      }
+    },
+    {
+      "task": "T09",
+      "anchor": "case_0806",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T09_lowlight32_074",
+      "slot": 4,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00764",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          262,
+          333
+        ],
+        "asset": "data/tiles/T09_lowlight32_074.npz"
+      }
+    },
+    {
+      "task": "T09",
+      "anchor": "case_0806",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T09_lowlight32_098",
+      "slot": 5,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00788",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          141,
+          274
+        ],
+        "asset": "data/tiles/T09_lowlight32_098.npz"
+      }
+    },
+    {
+      "task": "T10",
+      "anchor": "case_0810",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "case_0810",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "noise",
+        "origin": [
+          2401,
+          3659
+        ],
+        "asset": "data/tiles/case_0810.npz"
+      }
+    },
+    {
+      "task": "T10",
+      "anchor": "case_0810",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T10_sidd_00_00",
+      "slot": 1,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_00",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          173,
+          18
+        ],
+        "asset": "data/tiles/T10_sidd_00_00.npz"
+      }
+    },
+    {
+      "task": "T10",
+      "anchor": "case_0810",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T10_sidd_10_00",
+      "slot": 2,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_10",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          25,
+          90
+        ],
+        "asset": "data/tiles/T10_sidd_10_00.npz"
+      }
+    },
+    {
+      "task": "T10",
+      "anchor": "case_0810",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T10_sidd_20_00",
+      "slot": 3,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_20",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          42,
+          152
+        ],
+        "asset": "data/tiles/T10_sidd_20_00.npz"
+      }
+    },
+    {
+      "task": "T10",
+      "anchor": "case_0810",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T10_sidd_29_00",
+      "slot": 4,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_29",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          26,
+          64
+        ],
+        "asset": "data/tiles/T10_sidd_29_00.npz"
+      }
+    },
+    {
+      "task": "T10",
+      "anchor": "case_0810",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T10_sidd_39_00",
+      "slot": 5,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_39",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          94,
+          163
+        ],
+        "asset": "data/tiles/T10_sidd_39_00.npz"
+      }
+    },
+    {
+      "task": "T11",
+      "anchor": "case_0813",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "case_0813",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "stereo",
+        "scene": "Adirondack",
+        "crop": null
+      }
+    },
+    {
+      "task": "T11",
+      "anchor": "case_0813",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T11_stereo_ArtL_00",
+      "slot": 1,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "ArtL",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "ArtL",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T11",
+      "anchor": "case_0813",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T11_stereo_Piano_00",
+      "slot": 2,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "Piano",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "Piano",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T11",
+      "anchor": "case_0813",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T11_stereo_Playroom_00",
+      "slot": 3,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "Playroom",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "Playroom",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T11",
+      "anchor": "case_0813",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T11_stereo_Recycle_00",
+      "slot": 4,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "Recycle",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "Recycle",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T11",
+      "anchor": "case_0813",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T11_stereo_Vintage_00",
+      "slot": 5,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "Vintage",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "Vintage",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T12",
+      "anchor": "pd629_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "pd629_graph_noisy_view_0",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 62902000
+      }
+    },
+    {
+      "task": "T12",
+      "anchor": "pd629_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T12_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92571101
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T12",
+      "anchor": "pd629_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T12_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92571102
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T12",
+      "anchor": "pd629_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T12_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92571103
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T12",
+      "anchor": "pd629_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T12_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92571104
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T12",
+      "anchor": "pd629_graph_noisy_view_0",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T12_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "noisy_view",
+        "seed": 92571105
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T13",
+      "anchor": "pd629_graph_noisy_view_1",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "pd629_graph_noisy_view_1",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "noisy_view",
+        "seed": 62902001
+      }
+    },
+    {
+      "task": "T13",
+      "anchor": "pd629_graph_noisy_view_1",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T13_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "noisy_view",
+        "seed": 92571201
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T13",
+      "anchor": "pd629_graph_noisy_view_1",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T13_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "noisy_view",
+        "seed": 92571202
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T13",
+      "anchor": "pd629_graph_noisy_view_1",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T13_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "noisy_view",
+        "seed": 92571203
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T13",
+      "anchor": "pd629_graph_noisy_view_1",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T13_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "noisy_view",
+        "seed": 92571204
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T13",
+      "anchor": "pd629_graph_noisy_view_1",
+      "group": "view_graph_noisy_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T13_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "noisy_view",
+        "seed": 92571205
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T14",
+      "anchor": "pd629_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "pd629_graph_biased_view_0",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 62903000
+      }
+    },
+    {
+      "task": "T14",
+      "anchor": "pd629_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T14_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92571301
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T14",
+      "anchor": "pd629_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T14_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92571302
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T14",
+      "anchor": "pd629_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T14_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92571303
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T14",
+      "anchor": "pd629_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T14_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92571304
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T14",
+      "anchor": "pd629_graph_biased_view_0",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 48,
+      "key": "T14_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 48,
+        "condition": "biased_view",
+        "seed": 92571305
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T15",
+      "anchor": "pd629_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "pd629_graph_biased_view_1",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 62903001
+      }
+    },
+    {
+      "task": "T15",
+      "anchor": "pd629_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T15_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92571401
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T15",
+      "anchor": "pd629_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T15_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92571402
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T15",
+      "anchor": "pd629_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T15_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92571403
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T15",
+      "anchor": "pd629_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T15_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92571404
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T15",
+      "anchor": "pd629_graph_biased_view_1",
+      "group": "view_graph_biased_view",
+      "unit": "RMSE",
+      "anchor_dimension": 96,
+      "key": "T15_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "view_graph",
+        "n": 96,
+        "condition": "biased_view",
+        "seed": 92571405
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T16",
+      "anchor": "pd629_se3_1",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 30,
+      "key": "pd629_se3_1",
+      "slot": 0,
+      "kind": "synthetic",
+      "source": "paper_original",
+      "spec": {
+        "family": "se3",
+        "nodes": 6,
+        "seed": 62905001
+      }
+    },
+    {
+      "task": "T16",
+      "anchor": "pd629_se3_1",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 30,
+      "key": "T16_seed1",
+      "slot": 1,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 6,
+        "seed": 92571501
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T16",
+      "anchor": "pd629_se3_1",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 30,
+      "key": "T16_seed2",
+      "slot": 2,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 6,
+        "seed": 92571502
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T16",
+      "anchor": "pd629_se3_1",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 30,
+      "key": "T16_seed3",
+      "slot": 3,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 6,
+        "seed": 92571503
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T16",
+      "anchor": "pd629_se3_1",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 30,
+      "key": "T16_seed4",
+      "slot": 4,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 6,
+        "seed": 92571504
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T16",
+      "anchor": "pd629_se3_1",
+      "group": "se3",
+      "unit": "m",
+      "anchor_dimension": 30,
+      "key": "T16_seed5",
+      "slot": 5,
+      "kind": "synthetic",
+      "spec": {
+        "family": "se3",
+        "nodes": 6,
+        "seed": 92571505
+      },
+      "source": "new_seed_same_dimension_and_condition"
+    },
+    {
+      "task": "T17",
+      "anchor": "case_0542",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 40,
+      "key": "case_0542",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_ajuntament",
+        "targets": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "task": "T17",
+      "anchor": "case_0542",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 40,
+      "key": "T17_mf_i_boutique",
+      "slot": 1,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "i_boutique",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_boutique",
+        "targets": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "task": "T17",
+      "anchor": "case_0542",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 40,
+      "key": "T17_mf_i_nijmegen",
+      "slot": 2,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "i_nijmegen",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "i_nijmegen",
+        "targets": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "task": "T17",
+      "anchor": "case_0542",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 40,
+      "key": "T17_mf_v_artisans",
+      "slot": 3,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_artisans",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_artisans",
+        "targets": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "task": "T17",
+      "anchor": "case_0542",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 40,
+      "key": "T17_mf_v_fest",
+      "slot": 4,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_fest",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_fest",
+        "targets": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "task": "T17",
+      "anchor": "case_0542",
+      "group": "hpatches_multiframe",
+      "unit": "px",
+      "anchor_dimension": 40,
+      "key": "T17_mf_v_wounded",
+      "slot": 5,
+      "kind": "multiframe",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "v_wounded",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "multiframe",
+        "sequence": "v_wounded",
+        "targets": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "task": "T18",
+      "anchor": "case_0800",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "case_0800",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "known_blur",
+        "origin": [
+          580,
+          248
+        ],
+        "asset": "data/tiles/case_0800.npz"
+      }
+    },
+    {
+      "task": "T18",
+      "anchor": "case_0800",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T18_blur_GOPR0384_11_05_0",
+      "slot": 1,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0384_11_05",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          60,
+          565
+        ],
+        "asset": "data/tiles/T18_blur_GOPR0384_11_05_0.npz"
+      }
+    },
+    {
+      "task": "T18",
+      "anchor": "case_0800",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T18_blur_GOPR0396_11_00_0",
+      "slot": 2,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0396_11_00",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          315,
+          664
+        ],
+        "asset": "data/tiles/T18_blur_GOPR0396_11_00_0.npz"
+      }
+    },
+    {
+      "task": "T18",
+      "anchor": "case_0800",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T18_blur_GOPR0410_11_00_0",
+      "slot": 3,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0410_11_00",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          171,
+          826
+        ],
+        "asset": "data/tiles/T18_blur_GOPR0410_11_00_0.npz"
+      }
+    },
+    {
+      "task": "T18",
+      "anchor": "case_0800",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T18_blur_GOPR0868_11_00_0",
+      "slot": 4,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0868_11_00",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          33,
+          587
+        ],
+        "asset": "data/tiles/T18_blur_GOPR0868_11_00_0.npz"
+      }
+    },
+    {
+      "task": "T18",
+      "anchor": "case_0800",
+      "group": "known_blur",
+      "unit": "dB",
+      "anchor_dimension": 256,
+      "key": "T18_blur_GOPR0871_11_00_0",
+      "slot": 5,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "GOPR0871_11_00",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "known_blur_region",
+        "origin": [
+          34,
+          376
+        ],
+        "asset": "data/tiles/T18_blur_GOPR0871_11_00_0.npz"
+      }
+    },
+    {
+      "task": "T19",
+      "anchor": "case_0808",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "case_0808",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "lowlight",
+        "origin": null,
+        "asset": "data/tiles/case_0808.npz"
+      }
+    },
+    {
+      "task": "T19",
+      "anchor": "case_0808",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T19_lowlight32_005",
+      "slot": 1,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00695",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          107,
+          64
+        ],
+        "asset": "data/tiles/T19_lowlight32_005.npz"
+      }
+    },
+    {
+      "task": "T19",
+      "anchor": "case_0808",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T19_lowlight32_029",
+      "slot": 2,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00719",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          356,
+          400
+        ],
+        "asset": "data/tiles/T19_lowlight32_029.npz"
+      }
+    },
+    {
+      "task": "T19",
+      "anchor": "case_0808",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T19_lowlight32_050",
+      "slot": 3,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00740",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          282,
+          8
+        ],
+        "asset": "data/tiles/T19_lowlight32_050.npz"
+      }
+    },
+    {
+      "task": "T19",
+      "anchor": "case_0808",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T19_lowlight32_073",
+      "slot": 4,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00763",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          308,
+          62
+        ],
+        "asset": "data/tiles/T19_lowlight32_073.npz"
+      }
+    },
+    {
+      "task": "T19",
+      "anchor": "case_0808",
+      "group": "lowlight",
+      "unit": "dB",
+      "anchor_dimension": 786,
+      "key": "T19_lowlight32_097",
+      "slot": 5,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "00787",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "lowlight_region",
+        "origin": [
+          9,
+          68
+        ],
+        "asset": "data/tiles/T19_lowlight32_097.npz"
+      }
+    },
+    {
+      "task": "T20",
+      "anchor": "case_0812",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "case_0812",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "noise",
+        "origin": [
+          634,
+          2389
+        ],
+        "asset": "data/tiles/case_0812.npz"
+      }
+    },
+    {
+      "task": "T20",
+      "anchor": "case_0812",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T20_sidd_01_00",
+      "slot": 1,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_01",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          42,
+          140
+        ],
+        "asset": "data/tiles/T20_sidd_01_00.npz"
+      }
+    },
+    {
+      "task": "T20",
+      "anchor": "case_0812",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T20_sidd_09_00",
+      "slot": 2,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_09",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          26,
+          11
+        ],
+        "asset": "data/tiles/T20_sidd_09_00.npz"
+      }
+    },
+    {
+      "task": "T20",
+      "anchor": "case_0812",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T20_sidd_19_00",
+      "slot": 3,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_19",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          144,
+          134
+        ],
+        "asset": "data/tiles/T20_sidd_19_00.npz"
+      }
+    },
+    {
+      "task": "T20",
+      "anchor": "case_0812",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T20_sidd_30_00",
+      "slot": 4,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_30",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          24,
+          133
+        ],
+        "asset": "data/tiles/T20_sidd_30_00.npz"
+      }
+    },
+    {
+      "task": "T20",
+      "anchor": "case_0812",
+      "group": "sidd",
+      "unit": "dB",
+      "anchor_dimension": 770,
+      "key": "T20_sidd_38_00",
+      "slot": 5,
+      "kind": "scale_tile",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "image_38",
+      "evaluation_unit": "first declared 16x16 inference tile of historical ROI",
+      "record": {
+        "family": "sidd_region",
+        "origin": [
+          40,
+          152
+        ],
+        "asset": "data/tiles/T20_sidd_38_00.npz"
+      }
+    },
+    {
+      "task": "T21",
+      "anchor": "case_0816",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "case_0816",
+      "slot": 0,
+      "kind": "registry",
+      "source": "paper_original",
+      "record": {
+        "family": "stereo",
+        "scene": "Motorcycle",
+        "crop": null
+      }
+    },
+    {
+      "task": "T21",
+      "anchor": "case_0816",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T21_stereo_Jadeplant_00",
+      "slot": 1,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "Jadeplant",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "Jadeplant",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T21",
+      "anchor": "case_0816",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T21_stereo_PianoL_00",
+      "slot": 2,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "PianoL",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "PianoL",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T21",
+      "anchor": "case_0816",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T21_stereo_Playtable_00",
+      "slot": 3,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "Playtable",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "Playtable",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T21",
+      "anchor": "case_0816",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T21_stereo_PlaytableP_00",
+      "slot": 4,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "PlaytableP",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "PlaytableP",
+        "crop": 0
+      }
+    },
+    {
+      "task": "T21",
+      "anchor": "case_0816",
+      "group": "stereo",
+      "unit": "px",
+      "anchor_dimension": 1536,
+      "key": "T21_stereo_Teddy_00",
+      "slot": 5,
+      "kind": "scale_stereo",
+      "source": "fixed_source_coverage_without_scores",
+      "cluster": "Teddy",
+      "evaluation_unit": "whole registered state",
+      "record": {
+        "family": "stereo",
+        "scene": "Teddy",
+        "crop": 0
+      }
+    }
+  ]
+}

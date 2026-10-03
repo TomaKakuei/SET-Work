@@ -148,13 +148,13 @@
     },
     {
       "path": "LICENSE_NOTICE.md",
-      "bytes": 472,
-      "sha256": "8f974a3a1ab9056914e1123ccbdd629ad40616b53b8c90d624f917688ff275b9"
+      "bytes": 627,
+      "sha256": "b1c6d4bdfff74c07ee4dd08c242e8cb1ef1780c5a88209832f4c6f6c03c4acc6"
     },
     {
       "path": "README.md",
-      "bytes": 6288,
-      "sha256": "a690fdeecd904f157945fa0aaacf581014a97a9592bfdd1cfe200fca20387886"
+      "bytes": 6588,
+      "sha256": "062d3f9cedac2564bef487554723742df82a0d69f75b67e584e46a3f136defba"
     },
     {
       "path": "README_ZH.md",

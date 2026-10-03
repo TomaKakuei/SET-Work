@@ -1,0 +1,895 @@
+{
+  "schema": "benchmark126-local-input-audit-v1",
+  "status": "passed",
+  "cases": 126,
+  "initial_sha_exact": 123,
+  "residual_sha_exact": 70,
+  "jacobian_sha_exact": 66,
+  "max_initial_objective_relative_error": 7.029620995172197e-08,
+  "steps": 5,
+  "joint_jacobian_cap_auxiliary": 21,
+  "rows": [
+    {
+      "key": "case_0540",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 7.715652831401714e-14
+    },
+    {
+      "key": "case_0542",
+      "initial_sha_exact": false,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 1.891806299109474e-14
+    },
+    {
+      "key": "case_0543",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 1.3307221944340894e-14
+    },
+    {
+      "key": "case_0798",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "case_0800",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "case_0805",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "case_0806",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "case_0808",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "case_0810",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "case_0812",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "case_0813",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "case_0816",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "pd629_graph_biased_view_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 1.8720826725143284e-16
+    },
+    {
+      "key": "pd629_graph_biased_view_1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "pd629_graph_noisy_view_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 1.16322595981244e-16
+    },
+    {
+      "key": "pd629_graph_noisy_view_1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "pd629_se3_1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T01_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T01_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T01_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T01_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T01_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 1.1261099367813294e-16
+    },
+    {
+      "key": "T02_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T02_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T02_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T02_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T02_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T03_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T03_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T03_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T03_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 1.7117841035251213e-16
+    },
+    {
+      "key": "T03_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 1.2639006391597804e-16
+    },
+    {
+      "key": "T04_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T04_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T04_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T04_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T04_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T05_mf_i_bologna",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 1.0097134306040501e-14
+    },
+    {
+      "key": "T05_mf_i_miniature",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 1.8801703722806113e-15
+    },
+    {
+      "key": "T05_mf_v_adam",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 4.589110107191949e-14
+    },
+    {
+      "key": "T05_mf_v_grace",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 9.211026266143554e-14
+    },
+    {
+      "key": "T05_mf_v_yuri",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 2.152395381711195e-12
+    },
+    {
+      "key": "T06_mf_i_books",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 3.202693039772043e-15
+    },
+    {
+      "key": "T06_mf_i_nescafe",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 5.545167671993944e-15
+    },
+    {
+      "key": "T06_mf_v_apprentices",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 1.5412821479293453e-13
+    },
+    {
+      "key": "T06_mf_v_gardens",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 1.4138775585577693e-14
+    },
+    {
+      "key": "T06_mf_v_yard",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 5.75950983937334e-13
+    },
+    {
+      "key": "T07_blur_GOPR0384_11_00_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T07_blur_GOPR0385_11_01_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T07_blur_GOPR0854_11_00_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T07_blur_GOPR0869_11_00_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T07_blur_GOPR0881_11_01_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T08_lowlight32_002",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T08_lowlight32_027",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T08_lowlight32_051",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T08_lowlight32_075",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T08_lowlight32_099",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T09_lowlight32_004",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T09_lowlight32_028",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T09_lowlight32_052",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T09_lowlight32_074",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T09_lowlight32_098",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T10_sidd_00_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T10_sidd_10_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 7.029620995172197e-08
+    },
+    {
+      "key": "T10_sidd_20_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T10_sidd_29_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T10_sidd_39_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T11_stereo_ArtL_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T11_stereo_Piano_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T11_stereo_Playroom_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T11_stereo_Recycle_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T11_stereo_Vintage_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T12_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T12_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T12_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 1.3514315225609603e-16
+    },
+    {
+      "key": "T12_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 1.4076734832347302e-16
+    },
+    {
+      "key": "T12_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 2.6339154791065697e-16
+    },
+    {
+      "key": "T13_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T13_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T13_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T13_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T13_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T14_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 1.620921587927486e-16
+    },
+    {
+      "key": "T14_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T14_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T14_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T14_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T15_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T15_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T15_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T15_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T15_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T16_seed1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T16_seed2",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T16_seed3",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T16_seed4",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T16_seed5",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T17_mf_i_boutique",
+      "initial_sha_exact": false,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 3.8899448870356875e-16
+    },
+    {
+      "key": "T17_mf_i_nijmegen",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 5.435897024753714e-13
+    },
+    {
+      "key": "T17_mf_v_artisans",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 2.6191407606201238e-14
+    },
+    {
+      "key": "T17_mf_v_fest",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 2.0327088570034968e-14
+    },
+    {
+      "key": "T17_mf_v_wounded",
+      "initial_sha_exact": false,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 2.8516931513798024e-15
+    },
+    {
+      "key": "T18_blur_GOPR0384_11_05_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T18_blur_GOPR0396_11_00_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T18_blur_GOPR0410_11_00_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T18_blur_GOPR0868_11_00_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T18_blur_GOPR0871_11_00_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T19_lowlight32_005",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T19_lowlight32_029",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T19_lowlight32_050",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T19_lowlight32_073",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T19_lowlight32_097",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T20_sidd_01_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T20_sidd_09_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T20_sidd_19_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T20_sidd_30_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T20_sidd_38_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T21_stereo_Jadeplant_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T21_stereo_PianoL_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T21_stereo_Playtable_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T21_stereo_PlaytableP_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "T21_stereo_Teddy_00",
+      "initial_sha_exact": true,
+      "residual_sha_exact": false,
+      "jacobian_sha_exact": false,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "validation_graph_biased_view_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "validation_graph_biased_view_1",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "validation_graph_noisy_view_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    },
+    {
+      "key": "validation_se3_0",
+      "initial_sha_exact": true,
+      "residual_sha_exact": true,
+      "jacobian_sha_exact": true,
+      "objective_relative_error": 0.0
+    }
+  ]
+}

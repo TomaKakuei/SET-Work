@@ -57,6 +57,8 @@ Earlier numbered modules remain because the core shares their numerical routines
 
 The [evidence index](evidence/README.md) links the current manuscript and appendix, nine paper tables in CSV form, the original 21-task follow-up, independent solver analyses, and the later 126-case comparisons with external methods. The paper's retained 18-task table and the historical 21-task suite have separate labels and provenance. The 126-case follow-up includes its failed-opponent records and the later repair regressions; those developmental routes are separate from the released inference entry point.
 
+The [registered 126-input package](benchmark126/README.md) adds the task configurations, four method routes, input preparation and scoring code, and selected source observations or exact restoration crops. It can audit and run the cases from this repository without the original research workspace.
+
 Download the complete evidence directory as [SET-Work-evidence-20261002.zip](SET-Work-evidence-20261002.zip). Its file hashes and source mapping are in [evidence/MANIFEST.json](evidence/MANIFEST.json). Run `python scripts/check_evidence.py` to check both the files and archive. The core ZIP and root manifest describe the compact code release.
 
 ## Small tests
